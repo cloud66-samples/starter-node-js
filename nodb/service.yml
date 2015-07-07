@@ -1,0 +1,13 @@
+---
+services:
+
+  web:
+    git: http://github.com/babakgh/node-js-getting-started.git
+    git_branch: master
+    command: node index.js
+    
+    env_vars:
+      RAILS_ENV: production
+      RACK_ENV: production
+
+databases:
